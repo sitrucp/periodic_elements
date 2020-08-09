@@ -1054,7 +1054,8 @@
  </g>
 </svg>
 <!-- Please retain this and other comments, which contain Python code to generate this SVG. """
-import re, math, collections, pandas as pd
+import re, math, collections, json, pandas as pd
+
 def fmt(string): ## string.format(**vars()) using tags {expression!format} by CMG Lee
  def f(tag): i_sep = tag.rfind('!'); return (re.sub('\.0+$', '', str(eval(tag[1:-1])))
   if (i_sep < 0) else ('{:%s}' % tag[i_sep + 1:-1]).format(eval(tag[1:i_sep])))
@@ -1062,8 +1063,6 @@ def fmt(string): ## string.format(**vars()) using tags {expression!format} by CM
          .replace('{{', '{').replace('}}', '}'))
 def append(obj, string): return obj.append(fmt(string))
 def format_tab(*arg): return '\t'.join([str(el) for el in (arg if len(arg) > 1 else arg[0])])
-
-def format_str(*arg): return ','.join([str(el) for el in (arg if len(arg) > 1 else arg[0])])
 
 def get_shading_x_y(fraction):
  fraction10 = fraction * 10
@@ -1261,7 +1260,7 @@ for i_field in range(len(datass)):
 ## i added this
 df_elements = pd.DataFrame(list_elements)
 df_elements.columns = ['number', 'symbol', 'chart_col', 'chart_row', 'chart_x', 'source', 'percent', 'format_percent']
-print(df_elements.head(5))
+#print(df_elements.head(5))
 ## to here
 
 out_p = 'width="100%" height="100%" viewBox="10040 10010 1820 910"'
@@ -1280,7 +1279,7 @@ finally:
 
 ## SVG-Python near-polyglot framework version 2 by CMG Lee (Feb 2016) -->
 
-## i added this
+## i added everything below
 def split_dataframe_rows(df, column_selectors, row_delimiter):
     # we need to keep track of the ordering of the columns
     def _split_list_to_rows(row,row_accumulator,column_selector,row_delimiter):
@@ -1310,14 +1309,21 @@ def split_dataframe_rows(df, column_selectors, row_delimiter):
 df_elements['source_str'] = [','.join(map(str, l)) for l in df_elements['source']]
 df_elements['percent_str'] = [','.join(map(str, l)) for l in df_elements['percent']]
 
-# use function split_dataframe_rows
+# use function split_dataframe_rows to split col vals into rows
 df_elements_split = split_dataframe_rows(df_elements, ('source_str','percent_str'), ',')
 
-## replace alpha with words
+## replace alpha character with words from source_dict
 source_dict = {'b': 'Big Bang fusion','c': 'Exploding white dwarfs','g': 'Exploding massive stars','j': 'Cosmic ray fission','o': 'Merging neutron stars','y': 'Dying low-mass stars', 'z': 'Human synthesis'}
-#df_elements['source_word'] = df_elements['source_str'].map(source_dict).fillna(df_elements['source_str'])
 df_elements_split['source_word'] = df_elements_split['source_str'].replace(source_dict)
 
-df_elements_split.to_csv('df_elements_split.csv', sep=',', encoding='utf-8')
+# write to csv
+df_elements_split.to_csv('periodic_elements.csv', sep=',', encoding='utf-8')
 
-print(df_elements_split.head(20))
+# transform pandas dataframe into dictionary to write as json
+json_elements_split = df_elements_split.to_dict('records')
+
+# write new montreal covid_data to json file
+with open('periodic_elements.json', 'w', encoding='utf8') as f:
+    f.write('var periodic_elements = \n')
+    json.dump(json_elements_split, f, ensure_ascii=False, indent=4)
+
