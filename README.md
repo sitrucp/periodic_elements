@@ -1,4 +1,13 @@
-Periodic chart elements by origin*
+Periodic chart elements by origin
+
+Periodic element origins: 
+{'b': 'Big Bang fusion',
+'c': 'Exploding white dwarfs',
+'g': 'Exploding massive stars',
+'j': 'Cosmic ray fission',
+'o': 'Merging neutron stars',
+'y': 'Dying low-mass stars', 
+'z': 'Human synthesis'}
 
 From <a href="https://en.wikipedia.org/wiki/File:Nucleosynthesis_periodic_table.svg" target="_blank">https://en.wikipedia.org/wiki/File:Nucleosynthesis_periodic_table.svg</a> SVG file which contains Python code to create the SVG.
 
@@ -15,14 +24,7 @@ Dying low-mass stars (y) = 0.042
 
 This was done to allow creating counts of elements by origin.
 
-* Periodic element origins: 
-{'b': 'Big Bang fusion',
-'c': 'Exploding white dwarfs',
-'g': 'Exploding massive stars',
-'j': 'Cosmic ray fission',
-'o': 'Merging neutron stars',
-'y': 'Dying low-mass stars', 
-'z': 'Human synthesis'}
+
 
 
 

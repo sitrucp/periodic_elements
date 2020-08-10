@@ -1305,9 +1305,14 @@ def split_dataframe_rows(df, column_selectors, row_delimiter):
     new_df = pd.DataFrame(new_rows, columns=df.columns)
     return new_df
 
+# get count of source for element
+df_elements['source_count'] = df_elements['source'].str.len()
+
 # create string instead of list to use in split_dataframe_rows function
 df_elements['source_str'] = [','.join(map(str, l)) for l in df_elements['source']]
 df_elements['percent_str'] = [','.join(map(str, l)) for l in df_elements['percent']]
+
+
 
 # use function split_dataframe_rows to split col vals into rows
 df_elements_split = split_dataframe_rows(df_elements, ('source_str','percent_str'), ',')

@@ -13,6 +13,7 @@ var periodic_elements =
             "1.000"
         ],
         "format_percent": "%.0f",
+        "source_count": 1,
         "source_str": "b",
         "percent_str": "1.000",
         "source_word": "Big Bang fusion"
@@ -34,6 +35,7 @@ var periodic_elements =
             "0.907"
         ],
         "format_percent": "%.0f",
+        "source_count": 3,
         "source_str": "y",
         "percent_str": "0.042",
         "source_word": "Dying low-mass stars"
@@ -55,6 +57,7 @@ var periodic_elements =
             "0.907"
         ],
         "format_percent": "%.0f",
+        "source_count": 3,
         "source_str": "g",
         "percent_str": "0.051",
         "source_word": "Exploding massive stars"
@@ -76,6 +79,7 @@ var periodic_elements =
             "0.907"
         ],
         "format_percent": "%.0f",
+        "source_count": 3,
         "source_str": "b",
         "percent_str": "0.907",
         "source_word": "Big Bang fusion"
@@ -97,6 +101,7 @@ var periodic_elements =
             "0.635"
         ],
         "format_percent": "%.0f",
+        "source_count": 3,
         "source_str": "j",
         "percent_str": "0.135",
         "source_word": "Cosmic ray fission"
@@ -118,6 +123,7 @@ var periodic_elements =
             "0.635"
         ],
         "format_percent": "%.0f",
+        "source_count": 3,
         "source_str": "b",
         "percent_str": "0.230",
         "source_word": "Big Bang fusion"
@@ -139,6 +145,7 @@ var periodic_elements =
             "0.635"
         ],
         "format_percent": "%.0f",
+        "source_count": 3,
         "source_str": "y",
         "percent_str": "0.635",
         "source_word": "Dying low-mass stars"
@@ -156,6 +163,7 @@ var periodic_elements =
             "1.000"
         ],
         "format_percent": "%.0f",
+        "source_count": 1,
         "source_str": "j",
         "percent_str": "1.000",
         "source_word": "Cosmic ray fission"
@@ -173,6 +181,7 @@ var periodic_elements =
             "1.000"
         ],
         "format_percent": "%.0f",
+        "source_count": 1,
         "source_str": "j",
         "percent_str": "1.000",
         "source_word": "Cosmic ray fission"
@@ -192,6 +201,7 @@ var periodic_elements =
             "0.753"
         ],
         "format_percent": "%.0f",
+        "source_count": 2,
         "source_str": "g",
         "percent_str": "0.247",
         "source_word": "Exploding massive stars"
@@ -211,6 +221,7 @@ var periodic_elements =
             "0.753"
         ],
         "format_percent": "%.0f",
+        "source_count": 2,
         "source_str": "y",
         "percent_str": "0.753",
         "source_word": "Dying low-mass stars"
@@ -230,6 +241,7 @@ var periodic_elements =
             "0.753"
         ],
         "format_percent": "%.0f",
+        "source_count": 2,
         "source_str": "g",
         "percent_str": "0.247",
         "source_word": "Exploding massive stars"
@@ -249,6 +261,7 @@ var periodic_elements =
             "0.753"
         ],
         "format_percent": "%.0f",
+        "source_count": 2,
         "source_str": "y",
         "percent_str": "0.753",
         "source_word": "Dying low-mass stars"
@@ -266,6 +279,7 @@ var periodic_elements =
             "1.000"
         ],
         "format_percent": "%.0f",
+        "source_count": 1,
         "source_str": "g",
         "percent_str": "1.000",
         "source_word": "Exploding massive stars"
@@ -283,6 +297,7 @@ var periodic_elements =
             "1.000"
         ],
         "format_percent": "%.0f",
+        "source_count": 1,
         "source_str": "g",
         "percent_str": "1.000",
         "source_word": "Exploding massive stars"
@@ -300,6 +315,7 @@ var periodic_elements =
             "1.000"
         ],
         "format_percent": "%.0f",
+        "source_count": 1,
         "source_str": "g",
         "percent_str": "1.000",
         "source_word": "Exploding massive stars"
@@ -317,6 +333,7 @@ var periodic_elements =
             "1.000"
         ],
         "format_percent": "%.0f",
+        "source_count": 1,
         "source_str": "g",
         "percent_str": "1.000",
         "source_word": "Exploding massive stars"
@@ -336,6 +353,7 @@ var periodic_elements =
             "0.008"
         ],
         "format_percent": "%.0f",
+        "source_count": 2,
         "source_str": "g",
         "percent_str": "0.992",
         "source_word": "Exploding massive stars"
@@ -355,6 +373,7 @@ var periodic_elements =
             "0.008"
         ],
         "format_percent": "%.0f",
+        "source_count": 2,
         "source_str": "c",
         "percent_str": "0.008",
         "source_word": "Exploding white dwarfs"
@@ -374,6 +393,7 @@ var periodic_elements =
             "0.004"
         ],
         "format_percent": "%.1f",
+        "source_count": 2,
         "source_str": "g",
         "percent_str": "0.996",
         "source_word": "Exploding massive stars"
@@ -393,6 +413,7 @@ var periodic_elements =
             "0.004"
         ],
         "format_percent": "%.1f",
+        "source_count": 2,
         "source_str": "c",
         "percent_str": "0.004",
         "source_word": "Exploding white dwarfs"
@@ -412,6 +433,7 @@ var periodic_elements =
             "0.295"
         ],
         "format_percent": "%.0f",
+        "source_count": 2,
         "source_str": "g",
         "percent_str": "0.705",
         "source_word": "Exploding massive stars"
@@ -431,6 +453,7 @@ var periodic_elements =
             "0.295"
         ],
         "format_percent": "%.0f",
+        "source_count": 2,
         "source_str": "c",
         "percent_str": "0.295",
         "source_word": "Exploding white dwarfs"
@@ -450,6 +473,7 @@ var periodic_elements =
             "0.028"
         ],
         "format_percent": "%.0f",
+        "source_count": 2,
         "source_str": "g",
         "percent_str": "0.972",
         "source_word": "Exploding massive stars"
@@ -469,6 +493,7 @@ var periodic_elements =
             "0.028"
         ],
         "format_percent": "%.0f",
+        "source_count": 2,
         "source_str": "c",
         "percent_str": "0.028",
         "source_word": "Exploding white dwarfs"
@@ -488,6 +513,7 @@ var periodic_elements =
             "0.422"
         ],
         "format_percent": "%.0f",
+        "source_count": 2,
         "source_str": "g",
         "percent_str": "0.578",
         "source_word": "Exploding massive stars"
@@ -507,6 +533,7 @@ var periodic_elements =
             "0.422"
         ],
         "format_percent": "%.0f",
+        "source_count": 2,
         "source_str": "c",
         "percent_str": "0.422",
         "source_word": "Exploding white dwarfs"
@@ -526,6 +553,7 @@ var periodic_elements =
             "0.158"
         ],
         "format_percent": "%.0f",
+        "source_count": 2,
         "source_str": "g",
         "percent_str": "0.842",
         "source_word": "Exploding massive stars"
@@ -545,6 +573,7 @@ var periodic_elements =
             "0.158"
         ],
         "format_percent": "%.0f",
+        "source_count": 2,
         "source_str": "c",
         "percent_str": "0.158",
         "source_word": "Exploding white dwarfs"
@@ -564,6 +593,7 @@ var periodic_elements =
             "0.442"
         ],
         "format_percent": "%.0f",
+        "source_count": 2,
         "source_str": "g",
         "percent_str": "0.558",
         "source_word": "Exploding massive stars"
@@ -583,6 +613,7 @@ var periodic_elements =
             "0.442"
         ],
         "format_percent": "%.0f",
+        "source_count": 2,
         "source_str": "c",
         "percent_str": "0.442",
         "source_word": "Exploding white dwarfs"
@@ -602,6 +633,7 @@ var periodic_elements =
             "0.177"
         ],
         "format_percent": "%.0f",
+        "source_count": 2,
         "source_str": "g",
         "percent_str": "0.823",
         "source_word": "Exploding massive stars"
@@ -621,6 +653,7 @@ var periodic_elements =
             "0.177"
         ],
         "format_percent": "%.0f",
+        "source_count": 2,
         "source_str": "c",
         "percent_str": "0.177",
         "source_word": "Exploding white dwarfs"
@@ -640,6 +673,7 @@ var periodic_elements =
             "0.495"
         ],
         "format_percent": "%.0f",
+        "source_count": 2,
         "source_str": "g",
         "percent_str": "0.505",
         "source_word": "Exploding massive stars"
@@ -659,6 +693,7 @@ var periodic_elements =
             "0.495"
         ],
         "format_percent": "%.0f",
+        "source_count": 2,
         "source_str": "c",
         "percent_str": "0.495",
         "source_word": "Exploding white dwarfs"
@@ -678,6 +713,7 @@ var periodic_elements =
             "0.177"
         ],
         "format_percent": "%.0f",
+        "source_count": 2,
         "source_str": "g",
         "percent_str": "0.823",
         "source_word": "Exploding massive stars"
@@ -697,6 +733,7 @@ var periodic_elements =
             "0.177"
         ],
         "format_percent": "%.0f",
+        "source_count": 2,
         "source_str": "c",
         "percent_str": "0.177",
         "source_word": "Exploding white dwarfs"
@@ -716,6 +753,7 @@ var periodic_elements =
             "0.654"
         ],
         "format_percent": "%.0f",
+        "source_count": 2,
         "source_str": "g",
         "percent_str": "0.346",
         "source_word": "Exploding massive stars"
@@ -735,6 +773,7 @@ var periodic_elements =
             "0.654"
         ],
         "format_percent": "%.0f",
+        "source_count": 2,
         "source_str": "c",
         "percent_str": "0.654",
         "source_word": "Exploding white dwarfs"
@@ -754,6 +793,7 @@ var periodic_elements =
             "0.753"
         ],
         "format_percent": "%.0f",
+        "source_count": 2,
         "source_str": "g",
         "percent_str": "0.247",
         "source_word": "Exploding massive stars"
@@ -773,6 +813,7 @@ var periodic_elements =
             "0.753"
         ],
         "format_percent": "%.0f",
+        "source_count": 2,
         "source_str": "c",
         "percent_str": "0.753",
         "source_word": "Exploding white dwarfs"
@@ -792,6 +833,7 @@ var periodic_elements =
             "0.768"
         ],
         "format_percent": "%.0f",
+        "source_count": 2,
         "source_str": "g",
         "percent_str": "0.232",
         "source_word": "Exploding massive stars"
@@ -811,6 +853,7 @@ var periodic_elements =
             "0.768"
         ],
         "format_percent": "%.0f",
+        "source_count": 2,
         "source_str": "c",
         "percent_str": "0.768",
         "source_word": "Exploding white dwarfs"
@@ -830,6 +873,7 @@ var periodic_elements =
             "0.836"
         ],
         "format_percent": "%.0f",
+        "source_count": 2,
         "source_str": "g",
         "percent_str": "0.164",
         "source_word": "Exploding massive stars"
@@ -849,6 +893,7 @@ var periodic_elements =
             "0.836"
         ],
         "format_percent": "%.0f",
+        "source_count": 2,
         "source_str": "c",
         "percent_str": "0.836",
         "source_word": "Exploding white dwarfs"
@@ -868,6 +913,7 @@ var periodic_elements =
             "0.644"
         ],
         "format_percent": "%.0f",
+        "source_count": 2,
         "source_str": "g",
         "percent_str": "0.356",
         "source_word": "Exploding massive stars"
@@ -887,6 +933,7 @@ var periodic_elements =
             "0.644"
         ],
         "format_percent": "%.0f",
+        "source_count": 2,
         "source_str": "c",
         "percent_str": "0.644",
         "source_word": "Exploding white dwarfs"
@@ -906,6 +953,7 @@ var periodic_elements =
             "0.671"
         ],
         "format_percent": "%.0f",
+        "source_count": 2,
         "source_str": "g",
         "percent_str": "0.329",
         "source_word": "Exploding massive stars"
@@ -925,6 +973,7 @@ var periodic_elements =
             "0.671"
         ],
         "format_percent": "%.0f",
+        "source_count": 2,
         "source_str": "c",
         "percent_str": "0.671",
         "source_word": "Exploding white dwarfs"
@@ -944,6 +993,7 @@ var periodic_elements =
             "0.697"
         ],
         "format_percent": "%.0f",
+        "source_count": 2,
         "source_str": "g",
         "percent_str": "0.303",
         "source_word": "Exploding massive stars"
@@ -963,6 +1013,7 @@ var periodic_elements =
             "0.697"
         ],
         "format_percent": "%.0f",
+        "source_count": 2,
         "source_str": "c",
         "percent_str": "0.697",
         "source_word": "Exploding white dwarfs"
@@ -982,6 +1033,7 @@ var periodic_elements =
             "0.578"
         ],
         "format_percent": "%.0f",
+        "source_count": 2,
         "source_str": "g",
         "percent_str": "0.422",
         "source_word": "Exploding massive stars"
@@ -1001,6 +1053,7 @@ var periodic_elements =
             "0.578"
         ],
         "format_percent": "%.0f",
+        "source_count": 2,
         "source_str": "c",
         "percent_str": "0.578",
         "source_word": "Exploding white dwarfs"
@@ -1020,6 +1073,7 @@ var periodic_elements =
             "0.537"
         ],
         "format_percent": "%.0f",
+        "source_count": 2,
         "source_str": "g",
         "percent_str": "0.463",
         "source_word": "Exploding massive stars"
@@ -1039,6 +1093,7 @@ var periodic_elements =
             "0.537"
         ],
         "format_percent": "%.0f",
+        "source_count": 2,
         "source_str": "c",
         "percent_str": "0.537",
         "source_word": "Exploding white dwarfs"
@@ -1056,6 +1111,7 @@ var periodic_elements =
             "1.000"
         ],
         "format_percent": "%.0f",
+        "source_count": 1,
         "source_str": "g",
         "percent_str": "1.000",
         "source_word": "Exploding massive stars"
@@ -1073,6 +1129,7 @@ var periodic_elements =
             "1.000"
         ],
         "format_percent": "%.0f",
+        "source_count": 1,
         "source_str": "g",
         "percent_str": "1.000",
         "source_word": "Exploding massive stars"
@@ -1090,6 +1147,7 @@ var periodic_elements =
             "1.000"
         ],
         "format_percent": "%.0f",
+        "source_count": 1,
         "source_str": "g",
         "percent_str": "1.000",
         "source_word": "Exploding massive stars"
@@ -1107,6 +1165,7 @@ var periodic_elements =
             "1.000"
         ],
         "format_percent": "%.0f",
+        "source_count": 1,
         "source_str": "g",
         "percent_str": "1.000",
         "source_word": "Exploding massive stars"
@@ -1124,6 +1183,7 @@ var periodic_elements =
             "1.000"
         ],
         "format_percent": "%.0f",
+        "source_count": 1,
         "source_str": "g",
         "percent_str": "1.000",
         "source_word": "Exploding massive stars"
@@ -1141,6 +1201,7 @@ var periodic_elements =
             "1.000"
         ],
         "format_percent": "%.0f",
+        "source_count": 1,
         "source_str": "g",
         "percent_str": "1.000",
         "source_word": "Exploding massive stars"
@@ -1158,6 +1219,7 @@ var periodic_elements =
             "1.000"
         ],
         "format_percent": "%.0f",
+        "source_count": 1,
         "source_str": "g",
         "percent_str": "1.000",
         "source_word": "Exploding massive stars"
@@ -1177,6 +1239,7 @@ var periodic_elements =
             "0.871"
         ],
         "format_percent": "%.0f",
+        "source_count": 2,
         "source_str": "g",
         "percent_str": "0.129",
         "source_word": "Exploding massive stars"
@@ -1196,6 +1259,7 @@ var periodic_elements =
             "0.871"
         ],
         "format_percent": "%.0f",
+        "source_count": 2,
         "source_str": "y",
         "percent_str": "0.871",
         "source_word": "Dying low-mass stars"
@@ -1215,6 +1279,7 @@ var periodic_elements =
             "0.920"
         ],
         "format_percent": "%.0f",
+        "source_count": 2,
         "source_str": "g",
         "percent_str": "0.080",
         "source_word": "Exploding massive stars"
@@ -1234,6 +1299,7 @@ var periodic_elements =
             "0.920"
         ],
         "format_percent": "%.0f",
+        "source_count": 2,
         "source_str": "y",
         "percent_str": "0.920",
         "source_word": "Dying low-mass stars"
@@ -1253,6 +1319,7 @@ var periodic_elements =
             "0.836"
         ],
         "format_percent": "%.0f",
+        "source_count": 2,
         "source_str": "g",
         "percent_str": "0.164",
         "source_word": "Exploding massive stars"
@@ -1272,6 +1339,7 @@ var periodic_elements =
             "0.836"
         ],
         "format_percent": "%.0f",
+        "source_count": 2,
         "source_str": "y",
         "percent_str": "0.836",
         "source_word": "Dying low-mass stars"
@@ -1291,6 +1359,7 @@ var periodic_elements =
             "0.865"
         ],
         "format_percent": "%.0f",
+        "source_count": 2,
         "source_str": "o",
         "percent_str": "0.135",
         "source_word": "Merging neutron stars"
@@ -1310,6 +1379,7 @@ var periodic_elements =
             "0.865"
         ],
         "format_percent": "%.0f",
+        "source_count": 2,
         "source_str": "y",
         "percent_str": "0.865",
         "source_word": "Dying low-mass stars"
@@ -1329,6 +1399,7 @@ var periodic_elements =
             "0.626"
         ],
         "format_percent": "%.0f",
+        "source_count": 2,
         "source_str": "o",
         "percent_str": "0.374",
         "source_word": "Merging neutron stars"
@@ -1348,6 +1419,7 @@ var periodic_elements =
             "0.626"
         ],
         "format_percent": "%.0f",
+        "source_count": 2,
         "source_str": "y",
         "percent_str": "0.626",
         "source_word": "Dying low-mass stars"
@@ -1365,6 +1437,7 @@ var periodic_elements =
             "1.000"
         ],
         "format_percent": "%.0f",
+        "source_count": 1,
         "source_str": "z",
         "percent_str": "1.000",
         "source_word": "Human synthesis"
@@ -1384,6 +1457,7 @@ var periodic_elements =
             "0.320"
         ],
         "format_percent": "%.0f",
+        "source_count": 2,
         "source_str": "o",
         "percent_str": "0.680",
         "source_word": "Merging neutron stars"
@@ -1403,6 +1477,7 @@ var periodic_elements =
             "0.320"
         ],
         "format_percent": "%.0f",
+        "source_count": 2,
         "source_str": "y",
         "percent_str": "0.320",
         "source_word": "Dying low-mass stars"
@@ -1422,6 +1497,7 @@ var periodic_elements =
             "0.135"
         ],
         "format_percent": "%.0f",
+        "source_count": 2,
         "source_str": "o",
         "percent_str": "0.865",
         "source_word": "Merging neutron stars"
@@ -1441,6 +1517,7 @@ var periodic_elements =
             "0.135"
         ],
         "format_percent": "%.0f",
+        "source_count": 2,
         "source_str": "y",
         "percent_str": "0.135",
         "source_word": "Dying low-mass stars"
@@ -1460,6 +1537,7 @@ var periodic_elements =
             "0.453"
         ],
         "format_percent": "%.0f",
+        "source_count": 2,
         "source_str": "o",
         "percent_str": "0.547",
         "source_word": "Merging neutron stars"
@@ -1479,6 +1557,7 @@ var periodic_elements =
             "0.453"
         ],
         "format_percent": "%.0f",
+        "source_count": 2,
         "source_str": "y",
         "percent_str": "0.453",
         "source_word": "Dying low-mass stars"
@@ -1498,6 +1577,7 @@ var periodic_elements =
             "0.190"
         ],
         "format_percent": "%.0f",
+        "source_count": 2,
         "source_str": "o",
         "percent_str": "0.810",
         "source_word": "Merging neutron stars"
@@ -1517,6 +1597,7 @@ var periodic_elements =
             "0.190"
         ],
         "format_percent": "%.0f",
+        "source_count": 2,
         "source_str": "y",
         "percent_str": "0.190",
         "source_word": "Dying low-mass stars"
@@ -1536,6 +1617,7 @@ var periodic_elements =
             "0.516"
         ],
         "format_percent": "%.0f",
+        "source_count": 2,
         "source_str": "o",
         "percent_str": "0.484",
         "source_word": "Merging neutron stars"
@@ -1555,6 +1637,7 @@ var periodic_elements =
             "0.516"
         ],
         "format_percent": "%.0f",
+        "source_count": 2,
         "source_str": "y",
         "percent_str": "0.516",
         "source_word": "Dying low-mass stars"
@@ -1574,6 +1657,7 @@ var periodic_elements =
             "0.356"
         ],
         "format_percent": "%.0f",
+        "source_count": 2,
         "source_str": "o",
         "percent_str": "0.644",
         "source_word": "Merging neutron stars"
@@ -1593,6 +1677,7 @@ var periodic_elements =
             "0.356"
         ],
         "format_percent": "%.0f",
+        "source_count": 2,
         "source_str": "y",
         "percent_str": "0.356",
         "source_word": "Dying low-mass stars"
@@ -1612,6 +1697,7 @@ var periodic_elements =
             "0.689"
         ],
         "format_percent": "%.0f",
+        "source_count": 2,
         "source_str": "o",
         "percent_str": "0.311",
         "source_word": "Merging neutron stars"
@@ -1631,6 +1717,7 @@ var periodic_elements =
             "0.689"
         ],
         "format_percent": "%.0f",
+        "source_count": 2,
         "source_str": "y",
         "percent_str": "0.689",
         "source_word": "Dying low-mass stars"
@@ -1650,6 +1737,7 @@ var periodic_elements =
             "0.255"
         ],
         "format_percent": "%.0f",
+        "source_count": 2,
         "source_str": "o",
         "percent_str": "0.745",
         "source_word": "Merging neutron stars"
@@ -1669,6 +1757,7 @@ var periodic_elements =
             "0.255"
         ],
         "format_percent": "%.0f",
+        "source_count": 2,
         "source_str": "y",
         "percent_str": "0.255",
         "source_word": "Dying low-mass stars"
@@ -1688,6 +1777,7 @@ var periodic_elements =
             "0.568"
         ],
         "format_percent": "%.0f",
+        "source_count": 2,
         "source_str": "o",
         "percent_str": "0.432",
         "source_word": "Merging neutron stars"
@@ -1707,6 +1797,7 @@ var periodic_elements =
             "0.568"
         ],
         "format_percent": "%.0f",
+        "source_count": 2,
         "source_str": "y",
         "percent_str": "0.568",
         "source_word": "Dying low-mass stars"
@@ -1726,6 +1817,7 @@ var periodic_elements =
             "0.046"
         ],
         "format_percent": "%.0f",
+        "source_count": 2,
         "source_str": "o",
         "percent_str": "0.954",
         "source_word": "Merging neutron stars"
@@ -1745,6 +1837,7 @@ var periodic_elements =
             "0.046"
         ],
         "format_percent": "%.0f",
+        "source_count": 2,
         "source_str": "y",
         "percent_str": "0.046",
         "source_word": "Dying low-mass stars"
@@ -1764,6 +1857,7 @@ var periodic_elements =
             "0.170"
         ],
         "format_percent": "%.0f",
+        "source_count": 2,
         "source_str": "o",
         "percent_str": "0.830",
         "source_word": "Merging neutron stars"
@@ -1783,6 +1877,7 @@ var periodic_elements =
             "0.170"
         ],
         "format_percent": "%.0f",
+        "source_count": 2,
         "source_str": "y",
         "percent_str": "0.170",
         "source_word": "Dying low-mass stars"
@@ -1802,6 +1897,7 @@ var periodic_elements =
             "0.152"
         ],
         "format_percent": "%.0f",
+        "source_count": 2,
         "source_str": "o",
         "percent_str": "0.848",
         "source_word": "Merging neutron stars"
@@ -1821,6 +1917,7 @@ var periodic_elements =
             "0.152"
         ],
         "format_percent": "%.0f",
+        "source_count": 2,
         "source_str": "y",
         "percent_str": "0.152",
         "source_word": "Dying low-mass stars"
@@ -1840,6 +1937,7 @@ var periodic_elements =
             "0.817"
         ],
         "format_percent": "%.0f",
+        "source_count": 2,
         "source_str": "o",
         "percent_str": "0.183",
         "source_word": "Merging neutron stars"
@@ -1859,6 +1957,7 @@ var periodic_elements =
             "0.817"
         ],
         "format_percent": "%.0f",
+        "source_count": 2,
         "source_str": "y",
         "percent_str": "0.817",
         "source_word": "Dying low-mass stars"
@@ -1878,6 +1977,7 @@ var periodic_elements =
             "0.617"
         ],
         "format_percent": "%.0f",
+        "source_count": 2,
         "source_str": "o",
         "percent_str": "0.383",
         "source_word": "Merging neutron stars"
@@ -1897,6 +1997,7 @@ var periodic_elements =
             "0.617"
         ],
         "format_percent": "%.0f",
+        "source_count": 2,
         "source_str": "y",
         "percent_str": "0.617",
         "source_word": "Dying low-mass stars"
@@ -1916,6 +2017,7 @@ var periodic_elements =
             "0.761"
         ],
         "format_percent": "%.0f",
+        "source_count": 2,
         "source_str": "o",
         "percent_str": "0.239",
         "source_word": "Merging neutron stars"
@@ -1935,6 +2037,7 @@ var periodic_elements =
             "0.761"
         ],
         "format_percent": "%.0f",
+        "source_count": 2,
         "source_str": "y",
         "percent_str": "0.761",
         "source_word": "Dying low-mass stars"
@@ -1954,6 +2057,7 @@ var periodic_elements =
             "0.484"
         ],
         "format_percent": "%.0f",
+        "source_count": 2,
         "source_str": "o",
         "percent_str": "0.516",
         "source_word": "Merging neutron stars"
@@ -1973,6 +2077,7 @@ var periodic_elements =
             "0.484"
         ],
         "format_percent": "%.0f",
+        "source_count": 2,
         "source_str": "y",
         "percent_str": "0.484",
         "source_word": "Dying low-mass stars"
@@ -1992,6 +2097,7 @@ var periodic_elements =
             "0.597"
         ],
         "format_percent": "%.0f",
+        "source_count": 2,
         "source_str": "o",
         "percent_str": "0.403",
         "source_word": "Merging neutron stars"
@@ -2011,6 +2117,7 @@ var periodic_elements =
             "0.597"
         ],
         "format_percent": "%.0f",
+        "source_count": 2,
         "source_str": "y",
         "percent_str": "0.597",
         "source_word": "Dying low-mass stars"
@@ -2028,6 +2135,7 @@ var periodic_elements =
             "1.000"
         ],
         "format_percent": "%.0f",
+        "source_count": 1,
         "source_str": "z",
         "percent_str": "1.000",
         "source_word": "Human synthesis"
@@ -2047,6 +2155,7 @@ var periodic_elements =
             "0.295"
         ],
         "format_percent": "%.0f",
+        "source_count": 2,
         "source_str": "o",
         "percent_str": "0.705",
         "source_word": "Merging neutron stars"
@@ -2066,6 +2175,7 @@ var periodic_elements =
             "0.295"
         ],
         "format_percent": "%.0f",
+        "source_count": 2,
         "source_str": "y",
         "percent_str": "0.295",
         "source_word": "Dying low-mass stars"
@@ -2085,6 +2195,7 @@ var periodic_elements =
             "0.053"
         ],
         "format_percent": "%.0f",
+        "source_count": 2,
         "source_str": "o",
         "percent_str": "0.947",
         "source_word": "Merging neutron stars"
@@ -2104,6 +2215,7 @@ var periodic_elements =
             "0.053"
         ],
         "format_percent": "%.0f",
+        "source_count": 2,
         "source_str": "y",
         "percent_str": "0.053",
         "source_word": "Dying low-mass stars"
@@ -2123,6 +2235,7 @@ var periodic_elements =
             "0.146"
         ],
         "format_percent": "%.0f",
+        "source_count": 2,
         "source_str": "o",
         "percent_str": "0.854",
         "source_word": "Merging neutron stars"
@@ -2142,6 +2255,7 @@ var periodic_elements =
             "0.146"
         ],
         "format_percent": "%.0f",
+        "source_count": 2,
         "source_str": "y",
         "percent_str": "0.146",
         "source_word": "Dying low-mass stars"
@@ -2161,6 +2275,7 @@ var periodic_elements =
             "0.068"
         ],
         "format_percent": "%.0f",
+        "source_count": 2,
         "source_str": "o",
         "percent_str": "0.932",
         "source_word": "Merging neutron stars"
@@ -2180,6 +2295,7 @@ var periodic_elements =
             "0.068"
         ],
         "format_percent": "%.0f",
+        "source_count": 2,
         "source_str": "y",
         "percent_str": "0.068",
         "source_word": "Dying low-mass stars"
@@ -2199,6 +2315,7 @@ var periodic_elements =
             "0.140"
         ],
         "format_percent": "%.0f",
+        "source_count": 2,
         "source_str": "o",
         "percent_str": "0.860",
         "source_word": "Merging neutron stars"
@@ -2218,6 +2335,7 @@ var periodic_elements =
             "0.140"
         ],
         "format_percent": "%.0f",
+        "source_count": 2,
         "source_str": "y",
         "percent_str": "0.140",
         "source_word": "Dying low-mass stars"
@@ -2237,6 +2355,7 @@ var periodic_elements =
             "0.072"
         ],
         "format_percent": "%.0f",
+        "source_count": 2,
         "source_str": "o",
         "percent_str": "0.928",
         "source_word": "Merging neutron stars"
@@ -2256,6 +2375,7 @@ var periodic_elements =
             "0.072"
         ],
         "format_percent": "%.0f",
+        "source_count": 2,
         "source_str": "y",
         "percent_str": "0.072",
         "source_word": "Dying low-mass stars"
@@ -2275,6 +2395,7 @@ var periodic_elements =
             "0.164"
         ],
         "format_percent": "%.0f",
+        "source_count": 2,
         "source_str": "o",
         "percent_str": "0.836",
         "source_word": "Merging neutron stars"
@@ -2294,6 +2415,7 @@ var periodic_elements =
             "0.164"
         ],
         "format_percent": "%.0f",
+        "source_count": 2,
         "source_str": "y",
         "percent_str": "0.164",
         "source_word": "Dying low-mass stars"
@@ -2313,6 +2435,7 @@ var periodic_elements =
             "0.124"
         ],
         "format_percent": "%.0f",
+        "source_count": 2,
         "source_str": "o",
         "percent_str": "0.876",
         "source_word": "Merging neutron stars"
@@ -2332,6 +2455,7 @@ var periodic_elements =
             "0.124"
         ],
         "format_percent": "%.0f",
+        "source_count": 2,
         "source_str": "y",
         "percent_str": "0.124",
         "source_word": "Dying low-mass stars"
@@ -2351,6 +2475,7 @@ var periodic_elements =
             "0.320"
         ],
         "format_percent": "%.0f",
+        "source_count": 2,
         "source_str": "o",
         "percent_str": "0.680",
         "source_word": "Merging neutron stars"
@@ -2370,6 +2495,7 @@ var periodic_elements =
             "0.320"
         ],
         "format_percent": "%.0f",
+        "source_count": 2,
         "source_str": "y",
         "percent_str": "0.320",
         "source_word": "Dying low-mass stars"
@@ -2389,6 +2515,7 @@ var periodic_elements =
             "0.197"
         ],
         "format_percent": "%.0f",
+        "source_count": 2,
         "source_str": "o",
         "percent_str": "0.803",
         "source_word": "Merging neutron stars"
@@ -2408,6 +2535,7 @@ var periodic_elements =
             "0.197"
         ],
         "format_percent": "%.0f",
+        "source_count": 2,
         "source_str": "y",
         "percent_str": "0.197",
         "source_word": "Dying low-mass stars"
@@ -2427,6 +2555,7 @@ var periodic_elements =
             "0.547"
         ],
         "format_percent": "%.0f",
+        "source_count": 2,
         "source_str": "o",
         "percent_str": "0.453",
         "source_word": "Merging neutron stars"
@@ -2446,6 +2575,7 @@ var periodic_elements =
             "0.547"
         ],
         "format_percent": "%.0f",
+        "source_count": 2,
         "source_str": "y",
         "percent_str": "0.547",
         "source_word": "Dying low-mass stars"
@@ -2465,6 +2595,7 @@ var periodic_elements =
             "0.412"
         ],
         "format_percent": "%.0f",
+        "source_count": 2,
         "source_str": "o",
         "percent_str": "0.588",
         "source_word": "Merging neutron stars"
@@ -2484,6 +2615,7 @@ var periodic_elements =
             "0.412"
         ],
         "format_percent": "%.0f",
+        "source_count": 2,
         "source_str": "y",
         "percent_str": "0.412",
         "source_word": "Dying low-mass stars"
@@ -2503,6 +2635,7 @@ var periodic_elements =
             "0.568"
         ],
         "format_percent": "%.0f",
+        "source_count": 2,
         "source_str": "o",
         "percent_str": "0.432",
         "source_word": "Merging neutron stars"
@@ -2522,6 +2655,7 @@ var periodic_elements =
             "0.568"
         ],
         "format_percent": "%.0f",
+        "source_count": 2,
         "source_str": "y",
         "percent_str": "0.568",
         "source_word": "Dying low-mass stars"
@@ -2541,6 +2675,7 @@ var periodic_elements =
             "0.084"
         ],
         "format_percent": "%.0f",
+        "source_count": 2,
         "source_str": "o",
         "percent_str": "0.916",
         "source_word": "Merging neutron stars"
@@ -2560,6 +2695,7 @@ var periodic_elements =
             "0.084"
         ],
         "format_percent": "%.0f",
+        "source_count": 2,
         "source_str": "y",
         "percent_str": "0.084",
         "source_word": "Dying low-mass stars"
@@ -2579,6 +2715,7 @@ var periodic_elements =
             "0.098"
         ],
         "format_percent": "%.0f",
+        "source_count": 2,
         "source_str": "o",
         "percent_str": "0.902",
         "source_word": "Merging neutron stars"
@@ -2598,6 +2735,7 @@ var periodic_elements =
             "0.098"
         ],
         "format_percent": "%.0f",
+        "source_count": 2,
         "source_str": "y",
         "percent_str": "0.098",
         "source_word": "Dying low-mass stars"
@@ -2617,6 +2755,7 @@ var periodic_elements =
             "0.015"
         ],
         "format_percent": "%.0f",
+        "source_count": 2,
         "source_str": "o",
         "percent_str": "0.985",
         "source_word": "Merging neutron stars"
@@ -2636,6 +2775,7 @@ var periodic_elements =
             "0.015"
         ],
         "format_percent": "%.0f",
+        "source_count": 2,
         "source_str": "y",
         "percent_str": "0.015",
         "source_word": "Dying low-mass stars"
@@ -2655,6 +2795,7 @@ var periodic_elements =
             "0.053"
         ],
         "format_percent": "%.0f",
+        "source_count": 2,
         "source_str": "o",
         "percent_str": "0.947",
         "source_word": "Merging neutron stars"
@@ -2674,6 +2815,7 @@ var periodic_elements =
             "0.053"
         ],
         "format_percent": "%.0f",
+        "source_count": 2,
         "source_str": "y",
         "percent_str": "0.053",
         "source_word": "Dying low-mass stars"
@@ -2693,6 +2835,7 @@ var periodic_elements =
             "0.060"
         ],
         "format_percent": "%.0f",
+        "source_count": 2,
         "source_str": "o",
         "percent_str": "0.940",
         "source_word": "Merging neutron stars"
@@ -2712,6 +2855,7 @@ var periodic_elements =
             "0.060"
         ],
         "format_percent": "%.0f",
+        "source_count": 2,
         "source_str": "y",
         "percent_str": "0.060",
         "source_word": "Dying low-mass stars"
@@ -2731,6 +2875,7 @@ var periodic_elements =
             "0.617"
         ],
         "format_percent": "%.0f",
+        "source_count": 2,
         "source_str": "o",
         "percent_str": "0.383",
         "source_word": "Merging neutron stars"
@@ -2750,6 +2895,7 @@ var periodic_elements =
             "0.617"
         ],
         "format_percent": "%.0f",
+        "source_count": 2,
         "source_str": "y",
         "percent_str": "0.617",
         "source_word": "Dying low-mass stars"
@@ -2769,6 +2915,7 @@ var periodic_elements =
             "0.768"
         ],
         "format_percent": "%.0f",
+        "source_count": 2,
         "source_str": "o",
         "percent_str": "0.232",
         "source_word": "Merging neutron stars"
@@ -2788,6 +2935,7 @@ var periodic_elements =
             "0.768"
         ],
         "format_percent": "%.0f",
+        "source_count": 2,
         "source_str": "y",
         "percent_str": "0.768",
         "source_word": "Dying low-mass stars"
@@ -2807,6 +2955,7 @@ var periodic_elements =
             "0.473"
         ],
         "format_percent": "%.0f",
+        "source_count": 2,
         "source_str": "o",
         "percent_str": "0.527",
         "source_word": "Merging neutron stars"
@@ -2826,6 +2975,7 @@ var periodic_elements =
             "0.473"
         ],
         "format_percent": "%.0f",
+        "source_count": 2,
         "source_str": "y",
         "percent_str": "0.473",
         "source_word": "Dying low-mass stars"
@@ -2845,6 +2995,7 @@ var periodic_elements =
             "0.005"
         ],
         "format_percent": "%.1f",
+        "source_count": 2,
         "source_str": "o",
         "percent_str": "0.995",
         "source_word": "Merging neutron stars"
@@ -2864,6 +3015,7 @@ var periodic_elements =
             "0.005"
         ],
         "format_percent": "%.1f",
+        "source_count": 2,
         "source_str": "y",
         "percent_str": "0.005",
         "source_word": "Dying low-mass stars"
@@ -2881,6 +3033,7 @@ var periodic_elements =
             "1.000"
         ],
         "format_percent": "%.0f",
+        "source_count": 1,
         "source_str": "o",
         "percent_str": "1.000",
         "source_word": "Merging neutron stars"
@@ -2898,6 +3051,7 @@ var periodic_elements =
             "1.000"
         ],
         "format_percent": "%.0f",
+        "source_count": 1,
         "source_str": "o",
         "percent_str": "1.000",
         "source_word": "Merging neutron stars"
@@ -2915,6 +3069,7 @@ var periodic_elements =
             "1.000"
         ],
         "format_percent": "%.0f",
+        "source_count": 1,
         "source_str": "o",
         "percent_str": "1.000",
         "source_word": "Merging neutron stars"
@@ -2932,6 +3087,7 @@ var periodic_elements =
             "1.000"
         ],
         "format_percent": "%.0f",
+        "source_count": 1,
         "source_str": "o",
         "percent_str": "1.000",
         "source_word": "Merging neutron stars"
@@ -2949,6 +3105,7 @@ var periodic_elements =
             "1.000"
         ],
         "format_percent": "%.0f",
+        "source_count": 1,
         "source_str": "o",
         "percent_str": "1.000",
         "source_word": "Merging neutron stars"
@@ -2966,6 +3123,7 @@ var periodic_elements =
             "1.000"
         ],
         "format_percent": "%.0f",
+        "source_count": 1,
         "source_str": "o",
         "percent_str": "1.000",
         "source_word": "Merging neutron stars"
@@ -2983,6 +3141,7 @@ var periodic_elements =
             "1.000"
         ],
         "format_percent": "%.0f",
+        "source_count": 1,
         "source_str": "o",
         "percent_str": "1.000",
         "source_word": "Merging neutron stars"
@@ -3000,6 +3159,7 @@ var periodic_elements =
             "1.000"
         ],
         "format_percent": "%.0f",
+        "source_count": 1,
         "source_str": "o",
         "percent_str": "1.000",
         "source_word": "Merging neutron stars"
@@ -3017,6 +3177,7 @@ var periodic_elements =
             "1.000"
         ],
         "format_percent": "%.0f",
+        "source_count": 1,
         "source_str": "o",
         "percent_str": "1.000",
         "source_word": "Merging neutron stars"
@@ -3034,6 +3195,7 @@ var periodic_elements =
             "1.000"
         ],
         "format_percent": "%.0f",
+        "source_count": 1,
         "source_str": "o",
         "percent_str": "1.000",
         "source_word": "Merging neutron stars"
@@ -3051,6 +3213,7 @@ var periodic_elements =
             "1.000"
         ],
         "format_percent": "%.0f",
+        "source_count": 1,
         "source_str": "o",
         "percent_str": "1.000",
         "source_word": "Merging neutron stars"
@@ -3068,6 +3231,7 @@ var periodic_elements =
             "1.000"
         ],
         "format_percent": "%.0f",
+        "source_count": 1,
         "source_str": "z",
         "percent_str": "1.000",
         "source_word": "Human synthesis"
@@ -3085,6 +3249,7 @@ var periodic_elements =
             "1.000"
         ],
         "format_percent": "%.0f",
+        "source_count": 1,
         "source_str": "z",
         "percent_str": "1.000",
         "source_word": "Human synthesis"
@@ -3102,6 +3267,7 @@ var periodic_elements =
             "1.000"
         ],
         "format_percent": "%.0f",
+        "source_count": 1,
         "source_str": "z",
         "percent_str": "1.000",
         "source_word": "Human synthesis"
@@ -3119,6 +3285,7 @@ var periodic_elements =
             "1.000"
         ],
         "format_percent": "%.0f",
+        "source_count": 1,
         "source_str": "z",
         "percent_str": "1.000",
         "source_word": "Human synthesis"
@@ -3136,6 +3303,7 @@ var periodic_elements =
             "1.000"
         ],
         "format_percent": "%.0f",
+        "source_count": 1,
         "source_str": "z",
         "percent_str": "1.000",
         "source_word": "Human synthesis"
@@ -3153,6 +3321,7 @@ var periodic_elements =
             "1.000"
         ],
         "format_percent": "%.0f",
+        "source_count": 1,
         "source_str": "z",
         "percent_str": "1.000",
         "source_word": "Human synthesis"
@@ -3170,6 +3339,7 @@ var periodic_elements =
             "1.000"
         ],
         "format_percent": "%.0f",
+        "source_count": 1,
         "source_str": "z",
         "percent_str": "1.000",
         "source_word": "Human synthesis"
@@ -3187,6 +3357,7 @@ var periodic_elements =
             "1.000"
         ],
         "format_percent": "%.0f",
+        "source_count": 1,
         "source_str": "z",
         "percent_str": "1.000",
         "source_word": "Human synthesis"
@@ -3204,6 +3375,7 @@ var periodic_elements =
             "1.000"
         ],
         "format_percent": "%.0f",
+        "source_count": 1,
         "source_str": "z",
         "percent_str": "1.000",
         "source_word": "Human synthesis"
@@ -3221,6 +3393,7 @@ var periodic_elements =
             "1.000"
         ],
         "format_percent": "%.0f",
+        "source_count": 1,
         "source_str": "b",
         "percent_str": "1.000",
         "source_word": "Big Bang fusion"
@@ -3238,6 +3411,7 @@ var periodic_elements =
             "1.000"
         ],
         "format_percent": "%.0f",
+        "source_count": 1,
         "source_str": "j",
         "percent_str": "1.000",
         "source_word": "Cosmic ray fission"
@@ -3255,6 +3429,7 @@ var periodic_elements =
             "1.000"
         ],
         "format_percent": "%.0f",
+        "source_count": 1,
         "source_str": "y",
         "percent_str": "1.000",
         "source_word": "Dying low-mass stars"
@@ -3272,6 +3447,7 @@ var periodic_elements =
             "1.000"
         ],
         "format_percent": "%.0f",
+        "source_count": 1,
         "source_str": "o",
         "percent_str": "1.000",
         "source_word": "Merging neutron stars"
@@ -3289,6 +3465,7 @@ var periodic_elements =
             "1.000"
         ],
         "format_percent": "%.0f",
+        "source_count": 1,
         "source_str": "g",
         "percent_str": "1.000",
         "source_word": "Exploding massive stars"
@@ -3306,6 +3483,7 @@ var periodic_elements =
             "1.000"
         ],
         "format_percent": "%.0f",
+        "source_count": 1,
         "source_str": "c",
         "percent_str": "1.000",
         "source_word": "Exploding white dwarfs"
@@ -3323,6 +3501,7 @@ var periodic_elements =
             "1.000"
         ],
         "format_percent": "%.0f",
+        "source_count": 1,
         "source_str": "z",
         "percent_str": "1.000",
         "source_word": "Human synthesis"
