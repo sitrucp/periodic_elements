@@ -30,19 +30,45 @@
 
 <body>
 
-<div class="container-fluid">
+<div class="container">
     <div class="row">
         <div class="col-md-12">
-            <p>Periodic chart elements by origin</p>
+            <h1>Periodic chart elements by origin</h1>
+            
+            <p>This cool periodic chart of the elements shows source / origin of the elements. Source: <a href="https://en.wikipedia.org/wiki/File:Nucleosynthesis_periodic_table.svg" target="_blank">Wikipedia</a> created by <a href="https://commons.wikimedia.org/wiki/User:Cmglee" target="_blank">Cmglee</a></p>
 
-            <p>See code here <a href="https://github.com/sitrucp/periodic_elements" target="_blank">https://github.com/sitrucp/periodic_elements</a></p>
+            <p><a href="https://en.wikipedia.org/wiki/File:Nucleosynthesis_periodic_table.svg" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Nucleosynthesis_periodic_table.svg/768px-Nucleosynthesis_periodic_table.svg.png" width="50%"></a></p>
+            
 
-            <p id ="chart"></p>
+            <p>Some elements may come from more than one source which are listed below:</p>
 
-            <p id ="chartc"></p>
+            <ul>
+                <li>Big Bang fusion</li>
+                <li>Exploding white dwarfs</li>
+                <li>Exploding massive stars</li>
+                <li>Cosmic ray fission</li>
+                <li>Merging neutron stars</li>
+                <li>Dying low-mass stars</li>
+                <li>Human synthesis</li>
+            </ul>
 
+            <p>I wanted to see counts of elements by origin. It turned out that the SVG file contains the data and Python code necessary to create the SVG file itself! </p>
+                
+            <p>With some minor modification the data could be extracted into a csv data file and used for the visualizations of counts of elements by origin below. (Read more about the modifications here <a href="https://github.com/sitrucp/periodic_elements" target="_blank">https://github.com/sitrucp/periodic_elements</a>)</p>
         </div>
     </div>
+
+    <div class="row">
+
+        <div class="col-md-6">
+            <p id ="chart"></p>
+        </div>
+
+        <div class="col-md-6">
+            <p id ="chartc"></p>
+        </div>
+    </div>
+
 </div>
 
 

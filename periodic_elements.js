@@ -23,7 +23,7 @@ Promise.all([
     
     // sort elementsByOrigin by count desc
     elementsByOrigin.sort(function(x, y){
-        return d3.descending(x.element_count, y.element_count);
+        return d3.ascending(x.element_count, y.element_count);
     })
 
     // create elements by origin axes x and y arrays
@@ -36,8 +36,9 @@ Promise.all([
     }
 
     var trace1 = {
-        x: x,
-        y: y,
+        x: y,
+        y: x,
+        orientation: 'h',
         type: 'bar',
         text: y.map(String),
         textposition: 'auto',
@@ -54,8 +55,16 @@ Promise.all([
     var data = [trace1];
 
     var layout = {
-        title: 'Periodic chart elements by origin',
+        title: {
+            text: 'Periodic chart elements by origin',
+            font: {
+              size: 16
+            }
+        },
         barmode: 'stack',
+        autosize: false,
+        width: 500,
+        height: 400,
         xaxis: {
             showgrid: false,
             showline: true,
@@ -63,12 +72,13 @@ Promise.all([
             tickfont: {
                 size: 12,
                 color: 'black'
-              },
+            },
         },
         yaxis: {
             showgrid: false,
             showline: true,
             automargin: true,
+            tickformat: 'd',
         }
     };
 
@@ -95,7 +105,7 @@ Promise.all([
         }
     });
 
-    // sort elementsByOrigin by count desc
+    // sort sourceCountByElement by source_count asc
     sourceCountByElement.sort(function(x, y){
         return d3.ascending(x.source_count, y.source_count);
     })
@@ -128,8 +138,15 @@ Promise.all([
     var datac = [trace1c];
 
     var layoutc = {
-        title: 'Periodic chart elements by number of origins',
+        title: {
+            text:'Periodic chart elements by number of origins',
+            font: {
+              size: 16
+            }
+        },
         barmode: 'stack',
+        width: 500,
+        height: 400,
         xaxis: {
             showgrid: false,
             showline: true,
@@ -138,12 +155,13 @@ Promise.all([
             tickfont: {
                 size: 12,
                 color: 'black'
-              },
+            },
         },
         yaxis: {
             showgrid: false,
             showline: true,
             automargin: true,
+            tickformat: 'd',
         }
     };
 
