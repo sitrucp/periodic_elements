@@ -51,7 +51,7 @@ Promise.all([
         }
       };
 
-      var data = [trace1];
+    var data = [trace1];
 
     var layout = {
         title: 'Periodic chart elements by origin',
@@ -72,12 +72,13 @@ Promise.all([
         }
     };
 
-    var design = {
+    var config = {
         responsive: true,
         displayModeBar: false
     }
 
-    Plotly.newPlot('chart', data, layout, design);
+    Plotly.newPlot('chart', data, layout, config);
+
 
 /////////////////
     // create chart of elements by origin source
@@ -96,7 +97,7 @@ Promise.all([
 
     // sort elementsByOrigin by count desc
     sourceCountByElement.sort(function(x, y){
-        return d3.descending(x.source_count, y.source_count);
+        return d3.ascending(x.source_count, y.source_count);
     })
 
     // create sourcecount axes x and y arrays
@@ -146,11 +147,11 @@ Promise.all([
         }
     };
 
-    var designc = {
+    var configc = {
         responsive: true,
         displayModeBar: false
     }
 
-    Plotly.newPlot('chartc', datac, layoutc, designc);
+    Plotly.newPlot('chartc', datac, layoutc, configc);
 
 });
