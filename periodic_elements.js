@@ -20,22 +20,10 @@ Promise.all([
             element_count: group.value
             }
         });
-
-    // summarize elements by number of sources
-    var sourceCountByElement = d3.nest()
-    .key(function(d) { return d.source_count; })
-    .rollup(function(v) { return v.length; })
-    .entries(elements)
-    .map(function(group) {
-        return {
-        source_count: group.key,
-        element_count: group.value
-        }
-    });
-
+    
     // sort elementsByOrigin by count desc
-    sourceCountByElement.sort(function(x, y){
-        return d3.ascending(x.source_count, y.source_count);
+    elementsByOrigin.sort(function(x, y){
+        return d3.descending(x.element_count, y.element_count);
     })
 
     // create elements by origin axes x and y arrays
@@ -45,15 +33,6 @@ Promise.all([
         row = elementsByOrigin[i];
         x.push( row['origin']);
         y.push( row['element_count']);
-    }
-
-    // create sourcecount axes x and y arrays
-    var xc = [];
-    var yc = [];
-    for (var i=0; i<sourceCountByElement.length; i++) {
-        row = sourceCountByElement[i];
-        xc.push( row['source_count']);
-        yc.push( row['element_count']);
     }
 
     var trace1 = {
@@ -100,13 +79,40 @@ Promise.all([
 
     Plotly.newPlot('chart', data, layout, design);
 
+/////////////////
+    // create chart of elements by origin source
 
+    // summarize elements by number of sources
+    var sourceCountByElement = d3.nest()
+    .key(function(d) { return d.source_count; })
+    .rollup(function(v) { return v.length; })
+    .entries(elements)
+    .map(function(group) {
+        return {
+        source_count: group.key,
+        element_count: group.value
+        }
+    });
+
+    // sort elementsByOrigin by count desc
+    sourceCountByElement.sort(function(x, y){
+        return d3.descending(x.source_count, y.source_count);
+    })
+
+    // create sourcecount axes x and y arrays
+    var xc = [];
+    var yc = [];
+    for (var i=0; i<sourceCountByElement.length; i++) {
+        row = sourceCountByElement[i];
+        xc.push( row['source_count']);
+        yc.push( row['element_count']);
+    }
 
     var trace1c = {
         x: xc,
         y: yc,
         type: 'bar',
-        text: y.map(String),
+        text: yc.map(String),
         textposition: 'auto',
         hoverinfo: 'none',
         marker: {
@@ -127,6 +133,7 @@ Promise.all([
             showgrid: false,
             showline: true,
             automargin: true,
+            tickformat: 'd',
             tickfont: {
                 size: 12,
                 color: 'black'

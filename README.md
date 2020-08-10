@@ -22,7 +22,9 @@ Big Bang fusion (b) = 0.907
 Exploding massive stars (g) = 0.051
 Dying low-mass stars (y) = 0.042
 
-This was done to allow creating counts of elements by origin.
+This was done to allow creating counts of elements by origin, and counts of elements by number of origin.
+
+See charts here <a href="https://sitrucp.github.io/periodic_elements/" target="_blank">https://sitrucp.github.io/periodic_elements/</a>
 
 
 
