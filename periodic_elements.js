@@ -69,6 +69,7 @@ Promise.all([
             showgrid: false,
             showline: true,
             automargin: true,
+            title: '# of elements',
             tickfont: {
                 size: 12,
                 color: 'black'
@@ -151,6 +152,7 @@ Promise.all([
             showgrid: false,
             showline: true,
             automargin: true,
+            title: '# of origins',
             tickformat: 'd',
             tickfont: {
                 size: 12,
@@ -161,6 +163,7 @@ Promise.all([
             showgrid: false,
             showline: true,
             automargin: true,
+            title: '# of elements',
             tickformat: 'd',
         }
     };
