@@ -7,7 +7,22 @@ Promise.all([
 ]).then(function(data) {
     //everthing else below is in d3 promise scope
     // get data sets from promise
-    var elements = data[0];
+    var elements_raw = data[0];
+
+    elements = elements_raw.filter(function(d){ return d.symbol != ''})
+
+    /*
+    Additional Human synthesis currently do not have symbol or source = Human synthesis
+    104,Rf
+    105,Db
+    106,Sg
+    107,Bh
+    108,Hs
+    109,Mt
+    110,Ds
+
+    need to update elements_raw array with these
+    */
 
     // summarize elements by origin
     var elementsByOrigin = d3.nest()
@@ -174,5 +189,93 @@ Promise.all([
     }
 
     Plotly.newPlot('chartc', datac, layoutc, configc);
+
+    // create chart of stacked bar subplots by source combinations
+
+    // summarize elements by source combinations
+    var elementBySourceCombo = d3.nest()
+    .key(function(d) { return d.source_count; })
+    .rollup(function(v) { return v.length; })
+    .entries(elements)
+    .map(function(group) {
+        return {
+        source_count: group.key,
+        element_count: group.value
+        }
+    });
+
+    // sort sourceCountByElement by source_count asc
+    elementBySourceCombo.sort(function(x, y){
+        return d3.ascending(x.source_count, y.source_count);
+    })
+
+    var trace1 = {
+        y: [0, 1, 2],
+        x: [10, 11, 12],
+        type: 'bar',
+        orientation: 'h'
+    };
+    
+    var trace11 = {
+        y: [0, 1, 2],
+        x: [10, 11, 12],
+        type: 'bar',
+        orientation: 'h'
+    };
+    
+    var trace2 = {
+        y: [2, 3, 4],
+        x: [100, 110, 120],
+        xaxis: 'x2',
+        yaxis: 'y2',
+        type: 'bar',
+        orientation: 'h'
+    };
+    
+    var trace22 = {
+        y: [2, 3, 4],
+        x: [100, 110, 120],
+        xaxis: 'x2',
+        yaxis: 'y2',
+        type: 'bar',
+        orientation: 'h'
+    };
+    
+    var trace3 = {
+        y: [3, 4, 5],
+        x: [1000, 1100, 1200],
+        xaxis: 'x3',
+        yaxis: 'y3',
+        type: 'bar',
+        orientation: 'h'
+    };
+    
+    var trace33 = {
+        y: [3, 4, 5],
+        x: [1000, 1100, 1200],
+        xaxis: 'x3',
+        yaxis: 'y3',
+        type: 'bar',
+        orientation: 'h'
+    };
+    
+    var data = [
+        trace1, trace11,
+        trace2, trace22,
+        trace3, trace3
+    ];
+    
+    var layout = {
+        barmode: 'stack',
+        yaxis: {domain: [0, 0.266]},
+        xaxis3: {anchor: 'y3'},
+        xaxis2: {anchor: 'y2'},
+        yaxis2: {domain: [0.366, 0.633]},
+        yaxis3: {domain: [0.733, 1]},
+    };
+    
+    Plotly.newPlot('graph', data, layout);
+
+
 
 });

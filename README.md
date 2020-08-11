@@ -13,7 +13,7 @@ From <a href="https://en.wikipedia.org/wiki/File:Nucleosynthesis_periodic_table.
 
 I modified the Python code, used to create the SVG, to additionally to create a Pandas dataframe with the periodic elements, their origin source, and fractions thereof, and then export dataframe into csv and JSON files.
 
-The code additionally splits column values into rows for elements that have more than one origin source. Some elements have only one origin, while others may have more than one origin. Therefore, elements with more than one origin have corresponding additional rows in the csv and JSON output file. 
+The code modifications additionally split column values into rows for elements that have more than one origin source. Some elements have only one origin, while others may have more than one origin. Therefore, elements with more than one origin have corresponding additional rows in the csv and JSON output file. 
 
 For example Helium (He) was split into three rows, one for each origin eg 90% of Helium is from Big Bang fusion with small fractions from Exploding massive stars and Dying low-mass stars.
 
