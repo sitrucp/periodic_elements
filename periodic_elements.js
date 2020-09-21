@@ -190,6 +190,7 @@ Promise.all([
 
     Plotly.newPlot('chartc', datac, layoutc, configc);
 
+    /*
     // create chart of stacked bar subplots by source combinations
 
     // summarize elements by source combinations
@@ -275,7 +276,7 @@ Promise.all([
     };
     
     Plotly.newPlot('graph', data, layout);
-
+*/
 
 
 });
